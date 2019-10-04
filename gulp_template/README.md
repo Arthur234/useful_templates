@@ -18,6 +18,6 @@ Run gulp task
 
     gulp {task_name}
 
-run gulp default
+run default gulp
 
     gulp

@@ -4,6 +4,7 @@
 // Default styles
 body {
   margin: 0;
+  background-color: $black;
 }
 
 *,
@@ -24,4 +25,6 @@ example
 */
 
 // Blocks styles
-@import "blocks/header.scss"
+@import "blocks/header.scss";
+@import "blocks/content.scss";
+@import "blocks/footer.scss";

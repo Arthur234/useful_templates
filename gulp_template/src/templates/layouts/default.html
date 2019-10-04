@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     {{> head}}
 </head>
+
 <body>
+    
+    <!-- Header -->
+    {{> header }}
 
-{{> body}}
+    <!-- Content -->
+    <div class="content">
+        {{> body }}        
+    </div>
 
-<script src="assets/js/app.min.js"></script>
+    <!-- Footer -->
+    {{> footer }}
+
+    <script src="assets/js/app.min.js"></script>
 
 </body>
-</html>
 
+</html>
